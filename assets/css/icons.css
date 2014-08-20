@@ -8,11 +8,11 @@
 /*icons definition*/
 
 .file{
-    background-image: url(./img/pkg.svg);
+    background-image: url(../img/pkg.svg);
 }
 
 .secure{
-    background-image: url(./img/secure.svg);
+    background-image: url(../img/secure.svg);
 }
 
 /*icon effects(WIP)*/
