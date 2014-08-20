@@ -1,7 +1,4 @@
-/*
-   Animation example, for spinners
-*/
-.animate-spin {
+.mug-spin {
   -moz-animation: spin 2s infinite linear;
   -o-animation: spin 2s infinite linear;
   -webkit-animation: spin 2s infinite linear;
