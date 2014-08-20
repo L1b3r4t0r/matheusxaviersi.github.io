@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'mug-font';
+  src: url('../font/mug-font.eot?10168105');
+  src: url('../font/mug-font.eot?10168105#iefix') format('embedded-opentype'),
+       url('../font/mug-font.woff?10168105') format('woff'),
+       url('../font/mug-font.ttf?10168105') format('truetype'),
+       url('../font/mug-font.svg?10168105#mug-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'mug-font';
+    src: url('../font/mug-font.svg?10168105#mug-font') format('svg');
+  }
+}
+*/
+ 
+ [class^="mug-"]:before, [class*=" mug-"]:before {
+  font-family: "mug-font";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.mug-pakage:before { content: '\e800'; } /* '' */
+.mug-open-lock:before { content: '\e801'; } /* '' */
+.mug-lock:before { content: '\e802'; } /* '' */
+.mug-code:before { content: '\e803'; } /* '' */
+.mug-ok:before { content: '\e804'; } /* '' */
+.mug-git:before { content: '\e806'; } /* '' */
+.mug-github-circled:before { content: '\e807'; } /* '' */
+.mug-github-squared:before { content: '\e808'; } /* '' */
+.mug-github:before { content: '\e809'; } /* '' */
+.mug-git-squared:before { content: '\e80a'; } /* '' */
+.mug-apple:before { content: '\e80b'; } /* '' */
+.mug-android:before { content: '\e80c'; } /* '' */
+.mug-bitbucket:before { content: '\e80d'; } /* '' */
+.mug-bitbucket-squared:before { content: '\e80e'; } /* '' */
+.mug-codeopen:before { content: '\e80f'; } /* '' */
+.mug-steam:before { content: '\e810'; } /* '' */
+.mug-twitter-squared:before { content: '\e811'; } /* '' */
+.mug-twitter:before { content: '\e812'; } /* '' */
+.mug-tumblr:before { content: '\e813'; } /* '' */
+.mug-tumblr-squared:before { content: '\e814'; } /* '' */
+.mug-steam-squared:before { content: '\e815'; } /* '' */
+.mug-youtube-play:before { content: '\e816'; } /* '' */
+.mug-youtube:before { content: '\e817'; } /* '' */
+.mug-dropbox:before { content: '\e818'; } /* '' */
+.mug-facebook:before { content: '\e819'; } /* '' */
+.mug-facebook-squared:before { content: '\e81a'; } /* '' */
+.mug-linux:before { content: '\e81b'; } /* '' */
+.mug-pinterest-circled:before { content: '\e81c'; } /* '' */
+.mug-pinterest-squared:before { content: '\e81d'; } /* '' */
+.mug-maxcdn:before { content: '\e81e'; } /* '' */
