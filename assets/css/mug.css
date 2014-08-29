@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: 'mug-font';
   src: url('../font/mug-font.eot?54661416');
   src: url('../font/mug-font.eot?54661416#iefix') format('embedded-opentype'),
@@ -27,7 +27,7 @@
   margin-left: .2em;
 }
 .mug-pakage:before { content: '\e800'; } /* '' */
-.mug-open-lock:before { content: '\e801'; } /* '' */
+.mug-lock-open:before { content: '\e801'; } /* '' */
 .mug-lock:before { content: '\e802'; } /* '' */
 .mug-code:before { content: '\e803'; } /* '' */
 .mug-ok:before { content: '\e804'; } /* '' */
