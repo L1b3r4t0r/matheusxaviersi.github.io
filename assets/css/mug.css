@@ -68,6 +68,3 @@
 .mug-laptop:before { content: '\e827'; } /* '' */
 .mug-desktop:before { content: '\e828'; } /* '' */
 .mug-html5:before { content: '\e829'; } /* '' */
-.mug-big{
-  font-size: 120%;
-}
