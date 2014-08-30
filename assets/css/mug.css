@@ -26,11 +26,12 @@
   line-height: 1em;
   margin-left: .2em;
 }
-.mug-pakage:before { content: '\e800'; } /* '' */
-.mug-lock-open:before { content: '\e801'; } /* '' */
+.mug-pakage-dl:before { content: '\e800'; } /* '' */
+.mug-open-lock:before { content: '\e801'; } /* '' */
 .mug-lock:before { content: '\e802'; } /* '' */
 .mug-code:before { content: '\e803'; } /* '' */
 .mug-ok:before { content: '\e804'; } /* '' */
+.mug-bank:before { content: '\e805'; } /* '' */
 .mug-git:before { content: '\e806'; } /* '' */
 .mug-github-circled:before { content: '\e807'; } /* '' */
 .mug-github-squared:before { content: '\e808'; } /* '' */
@@ -56,6 +57,17 @@
 .mug-pinterest-circled:before { content: '\e81c'; } /* '' */
 .mug-pinterest-squared:before { content: '\e81d'; } /* '' */
 .mug-maxcdn:before { content: '\e81e'; } /* '' */
+.mug-card:before { content: '\e81f'; } /* '' */
+.mug-money:before { content: '\e820'; } /* '' */
+.mug-terminal:before { content: '\e821'; } /* '' */
+.mug-package:before { content: '\e822'; } /* '' */
+.mug-phone:before { content: '\e823'; } /* '' */
+.mug-cancel:before { content: '\e824'; } /* '' */
+.mug-minus:before { content: '\e825'; } /* '' */
+.mug-plus:before { content: '\e826'; } /* '' */
+.mug-laptop:before { content: '\e827'; } /* '' */
+.mug-desktop:before { content: '\e828'; } /* '' */
+.mug-html5:before { content: '\e829'; } /* '' */
 .mug-big{
   font-size: 120%;
 }
